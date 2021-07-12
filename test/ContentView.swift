@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
                     .foregroundColor(.green)
@@ -20,10 +19,9 @@ struct ContentView: View {
                     .foregroundColor(.blue)
                     .bold()
             }
-        }
-        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

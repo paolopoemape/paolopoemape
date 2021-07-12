@@ -9,16 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                    .foregroundColor(.green)
-                    .bold()
-                Text("Joshua tree national Park")
-                    .font(.subheadline)
-                    .foregroundColor(.blue)
-                    .bold()
+        HStack(alignment: .bottom) {
+            VStack(alignment: .leading){
+                Text("This is a vstack")
+                Text("This is a vertical sign")
             }
+            Text("Turtle Rock")
+                .font(.title)
+                .foregroundColor(.green)
+                .bold()
+            Text("Joshua tree national Park")
+                .font(.subheadline)
+                .foregroundColor(.blue)
+                .bold()
+            Text( "This is horizontal" )
+
+            }
+        
     }
 }
 
